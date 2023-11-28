@@ -1,0 +1,99 @@
+.container{
+	display: flex;
+	width: 95vw;
+	justify-content:left;
+}
+h2{
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 60px;
+	justify-content:flex-end;
+	color: darkred;
+	border-radius: 25px 0px 0px 25px;
+	background: white;
+	font-family: "Chopsic";
+	width: 96vw;
+	background-size: 25px;
+
+}
+img{
+	width: 250px;
+	height: 200px;
+	border-radius: 25px;
+	justify-content: center;
+	margin: 10px;
+	box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+h3{
+	color: white;
+	font-family: ;
+}
+.words{
+	flex-wrap: wrap;
+	font-size: 30px;
+	color: white;
+	margin-left: 50px;
+	width: 500px;
+}
+.round{
+	display: flex;
+	flex-wrap: wrap;
+}
+p{
+	display:flex ;
+	flex-wrap: wrap;
+	width: 400px;
+	height: 90px;
+	color: ghostwhite;
+	font-size: 20px;
+}
+ul{
+	text-align: right;
+}
+li{
+	display: inline-block;
+	list-style: none;
+	color: white;
+}
+.logo{
+	width: 150px;
+	height: 130px;
+	box-shadow: none !important; 
+	float: left;
+	border-radius: 50px;
+}
+.bfg{
+	background: darkred;
+	border-radius: 75px;
+	border: 4px break white;
+}
+.get{
+	
+	/*width: 15px;*/
+	color: white;
+	font-size: 19px;
+	justify-content: center;
+}
+.shop{
+	background: green;
+	color: white;
+	border-color: red;
+	border:grey solid 4px;
+	border-radius: 20px;
+	width: 150px;
+	height: 50px;
+	cursor: progress;
+}
+.shop1{
+	margin:40px;
+	border-color: blue !important;
+	padding-right: ;
+	cursor: progress;
+}
+body {
+
+	background-image: url(image/ponmo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
